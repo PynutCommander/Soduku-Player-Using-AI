@@ -34,7 +34,7 @@ def naked_twins(values):
                             values[l] = values[l].strip()
     return values
 
-
+#WORKING
 def eliminate(values):
     solved_values = [box for box in values.keys() if len(values[box]) == 1]
     for box in solved_values:
